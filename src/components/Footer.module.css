@@ -1,0 +1,53 @@
+.footer {
+  background: var(--ink);
+  color: rgba(247, 244, 239, 0.6);
+  margin-top: 80px;
+  padding: 48px 24px;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.name {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--bg);
+}
+
+.desc {
+  font-size: 0.85rem;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  font-size: 0.82rem;
+  color: rgba(247, 244, 239, 0.5);
+  transition: color 0.15s;
+}
+
+.links a:hover {
+  color: var(--bg);
+}
+
+.copy {
+  font-size: 0.78rem;
+  color: rgba(247, 244, 239, 0.35);
+  line-height: 1.6;
+  max-width: 600px;
+}
