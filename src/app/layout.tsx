@@ -6,6 +6,9 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: '부동산 인포 — 청약·매매·전월세 정보',
   description: '취득세 계산, 청약 가점, 전월세 전환까지. 부동산 초보자를 위한 계산기와 정보를 제공합니다.',
+  verification: {
+    google: 'lz8_hF03NyDLm4BthOpSbuSYsTUpYeHESbMJdWuUJ_4',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
