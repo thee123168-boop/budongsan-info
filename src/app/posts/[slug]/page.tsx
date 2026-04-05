@@ -94,6 +94,40 @@ export default function PostPage({ params }: { params: { slug: string } }) {
             <div className={styles.adBoxSide}>
               <span>광고 영역</span>
             </div>
+
+            {/* 재테크 계산기 사이드바 링크 */}
+            <div style={{
+              marginTop: '16px',
+              padding: '20px 16px',
+              background: '#ebf4ff',
+              borderRadius: '12px',
+              border: '1px solid #bee3f8',
+              textAlign: 'center'
+            }}>
+              <p style={{ fontSize: '13px', fontWeight: '700', color: '#1e40af', marginBottom: '8px' }}>
+                🧮 직접 계산해보세요
+              </p>
+              <p style={{ fontSize: '12px', color: '#4a5568', marginBottom: '12px', lineHeight: '1.5' }}>
+                연봉 실수령액, 퇴직금, 적금 만기금액을 계산기로 바로 확인하세요.
+              </p>
+              <a
+                href="https://reteck-calculator.pages.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'block',
+                  background: '#2563eb',
+                  color: 'white',
+                  padding: '9px 12px',
+                  borderRadius: '8px',
+                  textDecoration: 'none',
+                  fontWeight: 'bold',
+                  fontSize: '13px'
+                }}
+              >
+                재테크 계산기 →
+              </a>
+            </div>
           </aside>
         </div>
       </div>
@@ -104,6 +138,43 @@ export default function PostPage({ params }: { params: { slug: string } }) {
           <div className={styles.adBox}>
             <span>광고 영역</span>
           </div>
+        </div>
+      </div>
+
+      {/* ── 재테크 계산기 본문 하단 배너 ── */}
+      <div style={{ padding: '0 16px', marginBottom: '8px' }}>
+        <div style={{
+          maxWidth: '720px',
+          margin: '0 auto',
+          padding: '24px',
+          background: '#ebf4ff',
+          borderRadius: '12px',
+          border: '1px solid #bee3f8',
+          textAlign: 'center'
+        }}>
+          <p style={{ fontSize: '15px', fontWeight: '700', color: '#1e40af', marginBottom: '8px' }}>
+            🧮 읽은 내용을 직접 계산해보고 싶으신가요?
+          </p>
+          <p style={{ fontSize: '13px', color: '#4a5568', marginBottom: '16px' }}>
+            연봉 실수령액 · 퇴직금 · 적금 · 대출 이자를 한 번에 계산할 수 있어요.
+          </p>
+          <a
+            href="https://reteck-calculator.pages.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              background: '#2563eb',
+              color: 'white',
+              padding: '11px 28px',
+              borderRadius: '8px',
+              textDecoration: 'none',
+              fontWeight: 'bold',
+              fontSize: '15px'
+            }}
+          >
+            🧮 재테크 계산기 바로가기 →
+          </a>
         </div>
       </div>
 
