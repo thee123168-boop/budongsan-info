@@ -1,0 +1,24 @@
+.calcPage { max-width: 720px; margin: 0 auto; padding: 0 16px 60px; }
+.calcHeader { text-align: center; padding: 40px 0 24px; }
+.calcHeader h1 { font-size: 1.8rem; font-weight: 800; }
+.calcHeader p { color: #718096; margin-top: 6px; }
+.tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 20px; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabBtn { flex-shrink: 0; background: white; border: 1.5px solid #e2e8f0; border-radius: 20px; padding: 7px 16px; font-size: 0.85rem; font-weight: 600; color: #4a5568; cursor: pointer; transition: all 0.18s; white-space: nowrap; }
+.tabBtn:hover { border-color: #1e40af; color: #1e40af; }
+.active { background: #1e40af !important; border-color: #1e40af !important; color: white !important; }
+.calcCard { background: white; border-radius: 16px; padding: 28px 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); margin-bottom: 16px; }
+.calcCard h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; }
+.desc { font-size: 0.88rem; color: #718096; margin-bottom: 20px; line-height: 1.5; }
+.inputGroup { margin-bottom: 14px; }
+.inputGroup label { display: block; font-size: 0.85rem; font-weight: 600; color: #4a5568; margin-bottom: 5px; }
+.inputGroup input, .inputGroup select { width: 100%; padding: 10px 14px; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 0.95rem; color: #1a202c; background: white; outline: none; transition: border-color 0.15s; }
+.inputGroup input:focus, .inputGroup select:focus { border-color: #1e40af; }
+.resultBox { background: linear-gradient(135deg, #eff6ff, #dbeafe); border: 1.5px solid #93c5fd; border-radius: 12px; padding: 20px; text-align: center; margin-top: 16px; }
+.resultLabel { font-size: 0.85rem; color: #1e40af; font-weight: 600; margin-bottom: 6px; }
+.resultValue { font-size: 2rem; font-weight: 800; color: #1e3a8a; letter-spacing: -1px; }
+.resultSub { font-size: 0.85rem; color: #4a5568; margin-top: 4px; }
+.resultDetail { background: #f8fafc; border-radius: 10px; padding: 14px 16px; margin-top: 14px; }
+.detailRow { display: flex; justify-content: space-between; font-size: 0.88rem; color: #4a5568; padding: 5px 0; border-bottom: 1px solid #e2e8f0; }
+.detailRow:last-child { border-bottom: none; }
+.resultNote { background: #fffbeb; border: 1px solid #f6e05e; border-radius: 8px; padding: 12px; margin-top: 12px; font-size: 0.82rem; color: #744210; }

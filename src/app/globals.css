@@ -1,43 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #f7f4ef;
+  --brand: #1e40af;
+  --brand-light: #dbeafe;
+  --ink: #1a202c;
+  --ink-muted: #718096;
+  --bg: #f7f8fa;
   --surface: #ffffff;
-  --ink: #18150f;
-  --ink-muted: #6b6151;
-  --accent: #d4420c;
-  --accent-hover: #b5350a;
-  --accent2: #1a5c3a;
-  --border: #e2dbd0;
-  --tag-bg: #eee9e0;
-  --serif: 'Noto Serif KR', Georgia, serif;
-  --sans: 'Noto Sans KR', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-  scroll-behavior: smooth;
+  --border: #e2e8f0;
+  --radius: 12px;
 }
 
 body {
-  font-family: var(--sans);
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: var(--bg);
   color: var(--ink);
-  line-height: 1.75;
-  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; }

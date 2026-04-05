@@ -2,40 +2,15 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: '핀인포 — 청년·직장인 금융 정보',
-  description: '청년도약계좌, 연말정산, 신용점수, 정부지원금까지. 직장인이 꼭 알아야 할 금융 정보를 쉽게 정리합니다.',
-  keywords: '청년지원금, 연말정산, 신용점수, 전세대출, 실손보험, 절세',
-  verification: {
-    google: 'lz8_hF03NyDLm4BthOpSbuSYsTUpYeHESbMJdWuUJ_4',
-    other: {
-      'naver-site-verification': ['85232f9b45fe438b93a88aaf4200b6e47881ec44'],
-    },
-  },
-  openGraph: {
-    title: '핀인포 — 청년·직장인 금융 정보',
-    description: '직장인이 꼭 알아야 할 금융 정보를 쉽게 정리합니다.',
-    type: 'website',
-  },
+  title: '부동산 인포 — 청약·매매·전월세 정보',
+  description: '취득세 계산, 청약 가점, 전월세 전환까지. 부동산 초보자를 위한 계산기와 정보를 제공합니다.',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2612560508912506"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
-      </head>
       <body>
         <Header />
         <main>{children}</main>
